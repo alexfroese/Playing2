@@ -9,6 +9,8 @@ namespace Playing2.Models
         [MaxLength(50)]
         public string Name { get; set; }
 
+        [Required]
+        public Author Owner { get; set; }
         public List<Post> Posts { get; set; }
     }
 }

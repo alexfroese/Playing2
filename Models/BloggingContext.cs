@@ -8,5 +8,6 @@ namespace Playing2.Models
 
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Post> Posts { get; set; }
+        public DbSet<PostType> PostTypes { get; set; }
     }
 }
